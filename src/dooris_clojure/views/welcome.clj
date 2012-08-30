@@ -3,5 +3,5 @@
   (:use [noir.core :only [defpage]]))
 
 (defpage "/welcome" []
-         (common/layout
-           [:p "Welcome to dooris-clojure"]))
+  (common/layout
+    [:p "Welcome to dooris-clojure"]))

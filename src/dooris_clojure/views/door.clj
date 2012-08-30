@@ -3,5 +3,5 @@
   (:use [noir.core :only [defpage]]))
 
 (defpage "/door" []
-           (let [response (client/get "http://dooris.koalo.de/door.txt")]
-              (str (:body response))))
+  (let [response (client/get "http://dooris.koalo.de/door.txt")]
+    (str (:body response))))
